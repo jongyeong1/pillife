@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="3">
+
+        <RelativeLayout
+            android:layout_weight="0.7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/layout_margin">
+            <TextView
+                style="@style/TextStyle_Camera_Overlay"
+                android:text="촬영하기."/>
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/layout_margin_small"
+                android:rotation="90"
+                android:src="@drawable/baseline_close_white_18"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_weight="1.8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_weight="0.5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                style="@style/TextStyle_Camera_Overlay"
+                android:text="위의 테두리 안에\n코드를 위치시켜주세요"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

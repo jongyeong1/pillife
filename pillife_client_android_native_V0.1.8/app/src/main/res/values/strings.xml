@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">PilLife</string>
+    <string name="title_text">의약품 사진검색</string>
+    <string name="tab_menu">PilLife</string>
+
+    <!-- Activity Main -->
+    <string name="string_main_description1">기능 선택</string>
+    <string name="string_main_description2">사진 검색</string>
+    <string name="string_main_description3">모양 검색</string>
+    <string name="string_main_description4">로그인</string>
+    <string name="string_main_description5">아이디</string>
+    <string name="string_main_description6">암  호</string>
+    <string name="string_main_description7">로그인 정보 저장</string>
+    <string name="string_main_description8">낱알 식별 표시를 입력해 주세요</string>
+    <string name="string_main_description9">제품 구매</string>
+    <string name="string_main_description10">검색할 제품을 작성해 주세요.</string>
+    <string name="string_main_description11">로그인</string>
+
+    <string name="string_login_error_title">로그인 실패</string>
+    <string name="string_login_error_button">확 인</string>
+    <string name="string_login_error_desc1">입력하신 아이디/암호가 맞지 않습니다.</string>
+    <string name="string_login_error_desc2">아이디/암호를 입력하시기 바랍니다.</string>
+
+    <!-- Activity Guide -->
+    <string name="string_guide_description0">정확도를 높이기 위해</string>
+    <string name="string_guide_description1">약품의 앞/뒷면을 모두 찍어주세요.</string>
+    <string name="string_guide_description2">약품을 수직으로 촬영해주세요.</string>
+    <string name="string_guide_description3">다음부터 표시하지 않기</string>
+
+    <!-- Activity Drug Shape -->
+    <string name="string_drug_shape_description0">촬영할 약 모양 선택</string>
+    <string name="string_drug_shape_description1">(모양 선택 시 다음화면으로 넘어감)</string>
+
+    <!-- Fragment Filter -->
+<!--    <string name="string_filter_description1">약품을 모양에 맞춰\n촬영해주세요.</string>-->
+    <string name="string_filter_description1">약품 모양 점선 안에\n약을 배치하고 촬영해 주세요.\n(꽉 안채우셔도 되요)</string>
+    <string name="string_filter_description2">다른 모양의 약품을 촬영하려면\n화면을 옆으로 넘겨주세요.</string>
+    <string name="string_filter_description3">반대편을 촬영해주세요.</string>
+
+    <!-- Activity Search -->
+    <string name="string_search_title">약품 검색 결과</string>
+    <string name="string_search_title2">의약품 정보 검색</string>
+    <string name="string_search_title3">정답 제출 오류</string>
+    <string name="string_search_title4">제출 완료</string>
+    <string name="string_search_title5">제품 검색 결과</string>
+    <string name="string_search_description1">약품을 식별하고 있습니다.\n10초 이상 소요될 수 있습니다.</string>
+    <string name="string_search_description2">정답을 선택해 주세요.</string>
+    <string name="string_search_description3">촬영된 이미지가 명확하지 않거나,\n검색 결과가 없습니다.\n\n이미지를 다시 촬영하거나\n모양 검색을 사용해 보세요.</string>
+    <string name="string_search_description4">재촬영</string>
+    <string name="string_search_description5">모양 검색</string>
+    <string name="string_search_description6">제출하기</string>
+    <string name="string_search_description7">정답 항목 중 하나를 선택하시기 바랍니다.\n만약, 정답이 없을 경우 \'정답없음\'을 선택하시고 약품명을 직접 입력해 주시기 바랍니다.</string>
+    <string name="string_search_description8">\'정답없음\'을 선택하실 경우 약품명을 직접 입력해 주시기 바랍니다.</string>
+    <string name="string_search_description9">하얀 배경에 약품을 올려 놓으시고 \n사진을 찍어 주세요.</string>
+    <string name="string_search_description10">정답없음</string>
+    <string name="string_search_description11">약품명을 입력해 주세요.</string>
+    <string name="string_search_description12">선택하신 정보가 제출 되었습니다.\n메인화면으로 이동합니다.</string>
+    <string name="string_search_description13">일치되는 결과가 없습니다.</string>
+
+    <!-- Activity Input Drug Identity -->
+    <string name="string_identity_title">낱알 식별표시 입력</string>
+    <string name="string_identity_title2">낱알 식별표시 오류</string>
+    <string name="string_identity_title3">검색어 입력 오류</string>
+    <string name="string_identity_title4">네이버 제품 검색</string>
+    <string name="string_identity_description1">식별표시 앞</string>
+    <string name="string_identity_description2">식별표시 뒤</string>
+    <string name="string_identity_description3">포함</string>
+    <string name="string_identity_description4">일치</string>
+    <string name="string_identity_description5">영문,한글,숫자</string>
+    <string name="string_identity_description6">식별 표시 입력 생략</string>
+    <string name="string_identity_description7">식별 표시 입력 완료</string>
+    <string name="string_identity_description8">검색할 제품명</string>
+    <string name="string_identity_description9">제품 검색</string>
+
+    <string name="string_identity_error_button">확 인</string>
+    <string name="string_identity_error_description1">식별표시 앞 또는 뒤 항목에 낱알 식별 표시를 입력해 주세요.</string>
+    <string name="string_identity_error_description2">제품 이름을 입력해 주세요.</string>
+
+
+    <!-- DrawerLayout -->
+    <string name="string_drawerlayout_hmd_setting">SETTING</string>
+    <string name="string_drawerlayout_license">Open source license</string>
+
+    <!-- Popup go update -->
+    <string name="string_gp_update">업데이트 하러 가기</string>
+
+    <!-- Common message -->
+    <string name="string_common_permission_description1">PilLife 사용 하실 때\n다음과 같은 권한이 필요합니다.</string>
+    <string name="string_common_permission_description2">카메라/사진/미디어/파일 권한</string>
+    <string name="string_common_permission_description3">의약품을 촬영하거나 사진을 편집하는데 사용합니다.</string>
+    <string name="string_common_permission_description4">필수 권한을 허용 해 주셔야 PilLife을 이용하실 수 있습니다.</string>
+    <string name="string_common_exit">종료</string>
+    <string name="string_common_back">닫기</string>
+    <string name="string_common_ok">확인</string>
+    <string name="string_common_next">다음</string>
+    <string name="string_common_send">발송</string>
+    <string name="string_common_remove">삭제</string>
+    <string name="string_common_cancel">취소</string>
+    <string name="string_common_retry">다시시도</string>
+    <string name="string_common_data_loading">데이터를 처리 중입니다.\n다시 확인 해 주세요</string>
+    <string name="string_common_permission_denied_camera">카메라 접근 권한이 거부 되었습니다</string>
+    <string name="string_common_opinions_ok">소중한 의견 감사합니다</string>
+    <string name="string_common_version_alarm1">업데이트알림</string>
+    <string name="string_common_version_alarm2">새로운 버전이 출시되었습니다!\n소중한 우리가족을 위해 업데이트를\n진행해주세요!</string>
+    <string name="string_common_back_button">\'이전\' 버튼을 한번 더 누르면 앱이 종료 됩니다</string>
+    <string name="string_common_quiz_error">현재 등록된 퀴즈가 없습니다.</string>
+    <string name="string_common_download">Download</string>
+    <string name="string_common_play">Play</string>
+    <string name="string_common_offline">Offline</string>
+    <string name="string_common_file_check">File not found</string>
+    <string name="string_common_content_remove">영상을 삭제하시겠습니까?</string>
+    <string name="string_common_video_check">Sorry about that.</string>
+    <string name="string_common_error_network">네트워크를 찾을 수 없습니다.</string>
+    <string name="string_common_error_handler_network">서버 연결 체크 코드. (##code)</string>
+    <string name="string_common_version_title">업데이트알림</string>
+    <string name="string_common_version_alarm_description1">새로운 버전이 출시되었습니다!\n업데이트를 진행해주세요!</string>
+    <string name="string_common_version_alarm_description2">업데이트가 진행되지 않으면 앱이 정상적으로 동작하지 않습니다.</string>
+    <string name="string_common_go_update">업데이트 하러 가기</string>
+
+    <!-- Faq -->
+    <string name="string_faq_title">FAQ</string>
+
+    <string name="picture">Picture</string>
+    <string name="description_info1">카메라 플래쉬 on/off</string>
+    <string name="description_info2">의약품 촬영 도움말</string>
+    <string name="request_permission">This sample needs camera permission.</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+
+</resources>
+

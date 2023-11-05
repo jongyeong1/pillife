@@ -1,0 +1,109 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="layout_margin_small">8dp</dimen>
+    <dimen name="layout_margin_small_2x">4dp</dimen>
+    <dimen name="layout_margin">16dp</dimen>
+    <dimen name="layout_child_margin">32dp</dimen>
+    <dimen name="layout_margin_2x">32dp</dimen>
+    <dimen name="default_label_width_size">60dp</dimen>
+    <dimen name="default_title_margin">66dp</dimen>
+    <dimen name="default_font_size_8">8sp</dimen>
+    <dimen name="default_font_size_9">9sp</dimen>
+    <dimen name="default_font_size_10">10sp</dimen>
+    <dimen name="default_font_size_12">12sp</dimen>
+    <dimen name="default_font_size_13">13sp</dimen>
+    <dimen name="default_font_size_14">14sp</dimen>
+    <dimen name="default_font_size_16">16sp</dimen>
+    <dimen name="default_font_size_18">18sp</dimen>
+    <dimen name="default_font_size_20">20sp</dimen>
+    <dimen name="default_font_size_22">22sp</dimen>
+    <dimen name="default_font_size_24">24sp</dimen>
+    <dimen name="default_font_size_26">26sp</dimen>
+    <dimen name="default_font_size_30">30sp</dimen>
+
+    <dimen name="default_icon_size">48dp</dimen>
+    <dimen name="default_icon_size1">36dp</dimen>
+    <dimen name="default_icon_size2">70dp</dimen>
+    <dimen name="default_icon_size3">90dp</dimen>
+    <dimen name="default_icon_size4">52dp</dimen>
+    <dimen name="default_icon_size5">64dp</dimen>
+    <dimen name="page_bar">40dp</dimen>
+    <dimen name="text_view_height">40dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="fab_margin_2x">24dp</dimen>
+    <dimen name="fab_margin_small">4dp</dimen>
+    <dimen name="fab_text_padding">12dp</dimen>
+    <dimen name="dot_bar_size">3dp</dimen>
+
+    <dimen name="default_profiles_icon_size_small">70dp</dimen>
+    <dimen name="default_profiles_icon_bottom">6dp</dimen>
+
+    <dimen name="picker_width_size">70dp</dimen>
+    <dimen name="picker_height_size">150dp</dimen>
+    <dimen name="picker_text_size">14dp</dimen>
+
+    <dimen name="recycler_height_size">30dp</dimen>
+    <dimen name="recycler_left_margin_size_x2">25dp</dimen>
+    <dimen name="recycler_view_height_size">178dp</dimen>
+
+    <dimen name="nav_header_height">60dp</dimen>
+
+    <dimen name="design_bottom_navigation_text_size" tools:override="true">
+        @dimen/default_font_size_12
+    </dimen>
+    <dimen name="design_bottom_navigation_active_text_size" tools:override="true">
+        @dimen/default_font_size_14
+    </dimen>
+
+
+    <!-- facebook shimmer effect -->
+    <dimen name="activityPadding">16dp</dimen>
+    <dimen name="placeholderTextWidthL">250dp</dimen>
+    <dimen name="placeholderTextWidthS">200dp</dimen>
+    <dimen name="placeholderTextHeightL">24dp</dimen>
+    <dimen name="placeholderTextHeightS">16dp</dimen>
+    <dimen name="placeholderTextHeightSS">12dp</dimen>
+    <dimen name="padding_10">10dp</dimen>
+
+    <!--HorizontalStyle-->
+    <dimen name="default_trace_width">16dp</dimen>
+    <dimen name="default_progress_text_size">28sp</dimen>
+    <dimen name="default_corner_radius">5dp</dimen>
+    <dimen name="default_horizontal_text_size">14sp</dimen>
+    <dimen name="default_zone_length">22dp</dimen>
+    <dimen name="default_zone_width">6dp</dimen>
+    <dimen name="default_zone_padding">16dp</dimen>
+    <dimen name="default_zone_corner_radius">8dp</dimen>
+
+
+
+    <!-- camera x -->
+    <dimen name="margin_xsmall">16dp</dimen>
+    <dimen name="margin_small">32dp</dimen>
+    <dimen name="margin_medium">48dp</dimen>
+    <dimen name="margin_large">64dp</dimen>
+    <dimen name="margin_xlarge">92dp</dimen>
+
+    <dimen name="spacing_small">4dp</dimen>
+    <dimen name="spacing_medium">8dp</dimen>
+    <dimen name="spacing_large">16dp</dimen>
+
+    <dimen name="stroke_small">4dp</dimen>
+    <dimen name="stroke_medium">8dp</dimen>
+    <dimen name="stroke_large">12dp</dimen>
+
+    <dimen name="round_button_small">32dp</dimen>
+    <dimen name="round_button_medium">64dp</dimen>
+    <dimen name="round_button_large">92dp</dimen>
+
+    <dimen name="rect_button_margin">12dp</dimen>
+    <dimen name="rect_button_width">80dp</dimen>
+    <dimen name="rect_button_height">24dp</dimen>
+    <dimen name="shutter_button_margin">80dp</dimen>
+
+    <dimen name="login_text_width">100dp</dimen>
+    <dimen name="login_text_input_width">210dp</dimen>
+
+    <dimen name="input_drug_identity_text_width">110dp</dimen>
+    <dimen name="input_drug_identity_text_input_width">210dp</dimen>
+</resources>

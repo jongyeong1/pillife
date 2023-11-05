@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/space">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:background="@color/vr1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/default_icon_size">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="@dimen/default_icon_size"
+                android:layout_height="@dimen/default_icon_size"
+                android:src="@drawable/ic_btn_list_down"
+                android:tint="@color/white"
+                android:rotation="90"
+                android:scaleY="0.7"
+                android:scaleX="0.7"/>
+            <TextView
+                android:id="@+id/toolbarTitle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/string_search_title5"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:textSize="@dimen/default_font_size_20"
+                android:layout_marginEnd="@dimen/default_title_margin"
+                android:textColor="@android:color/white"/>
+        </RelativeLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/mRecyclerView"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginBottom="8dp">
+    </androidx.recyclerview.widget.RecyclerView>
+
+</RelativeLayout>

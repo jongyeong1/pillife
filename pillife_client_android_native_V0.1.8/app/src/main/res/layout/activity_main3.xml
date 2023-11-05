@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/space">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/space"
+        android:fitsSystemWindows="true"
+        android:gravity="bottom"
+        app:layout_behavior="com.crontiers.pillife.Utils.FixAppBarLayoutBehavior">
+
+        <RelativeLayout
+            android:id="@+id/temp1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/default_icon_size"
+            android:layout_marginLeft="@dimen/layout_margin_small"
+            android:layout_marginRight="@dimen/layout_margin_small">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="@dimen/layout_margin"
+                android:src="@drawable/logo" />
+
+        </RelativeLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="10">
+
+            <TextView
+                android:id="@+id/mainText"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="@dimen/layout_margin"
+                android:layout_weight="3"
+                android:gravity="bottom"
+                android:text="@string/string_main_description11"
+                android:textColor="@color/black"
+                android:textSize="@dimen/default_font_size_22" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView1"
+                style="@style/IconRipple_White"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/layout_margin_small"
+                android:layout_marginRight="@dimen/layout_margin_small"
+                android:layout_weight="1"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="0.0px"
+                android:elevation="8dp"
+                custom:cardBackgroundColor="@color/vr1"
+                custom:cardCornerRadius="15dp"
+                custom:cardElevation="5dp"
+                custom:cardPreventCornerOverlap="false"
+                custom:cardUseCompatPadding="true"
+                custom:elevation="0dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/tempImageView1"
+                        android:layout_width="@dimen/default_icon_size"
+                        android:layout_height="@dimen/default_icon_size"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/ic_camera_alt_black_24dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tempImageView1"
+                        android:layout_centerInParent="true"
+                        android:text="@string/string_main_description2"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/default_font_size_20" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/layout_margin_small"
+                android:layout_marginRight="@dimen/layout_margin_small"
+                android:layout_weight="1"
+                android:baselineAligned="false"
+                android:clickable="true"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="0.0px"
+                android:elevation="8dp"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
+                custom:cardBackgroundColor="@color/white"
+                custom:cardCornerRadius="15dp"
+                custom:cardElevation="5dp"
+                custom:cardPreventCornerOverlap="false"
+                custom:cardUseCompatPadding="true"
+                custom:elevation="0dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/tempImageView2"
+                        android:layout_width="@dimen/default_icon_size"
+                        android:layout_height="@dimen/default_icon_size"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/ic_finder_capsules" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tempImageView2"
+                        android:layout_centerInParent="true"
+                        android:text="@string/string_main_description3"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/default_font_size_20" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/layout_margin_small"
+                android:layout_marginRight="@dimen/layout_margin_small"
+                android:layout_weight="1"
+                android:baselineAligned="false"
+                android:clickable="true"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="0.0px"
+                android:elevation="8dp"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
+                custom:cardBackgroundColor="@color/white"
+                custom:cardCornerRadius="15dp"
+                custom:cardElevation="5dp"
+                custom:cardPreventCornerOverlap="false"
+                custom:cardUseCompatPadding="true"
+                custom:elevation="0dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/tempImageView3"
+                        android:layout_width="@dimen/default_icon_size"
+                        android:layout_height="@dimen/default_icon_size"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/ic_search_capsules" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tempImageView3"
+                        android:layout_centerInParent="true"
+                        android:text="@string/string_main_description9"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/default_font_size_20" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/versionText"
+            android:gravity="bottom|center_horizontal"
+            android:layout_marginBottom="@dimen/layout_margin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:text="v 1.0"/>
+
+    </RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+

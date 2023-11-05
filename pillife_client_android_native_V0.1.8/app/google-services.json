@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "959319760646",
+    "firebase_url": "https://pillife-19f03.firebaseio.com",
+    "project_id": "pillife-19f03",
+    "storage_bucket": "pillife-19f03.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:959319760646:android:8d980bb67b08a42e72c887",
+        "android_client_info": {
+          "package_name": "com.crontiers.pillife"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "959319760646-p29s1lho63k1drlpo9f7jsp0g4ldieut.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRWzi-z0zoEsqbtXsF14LvgyHo3rKdVSY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "959319760646-p29s1lho63k1drlpo9f7jsp0g4ldieut.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

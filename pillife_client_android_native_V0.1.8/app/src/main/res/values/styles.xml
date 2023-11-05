@@ -1,0 +1,134 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.TransparentStatusBar" parent="AppTheme.NoActionBar">
+        <item name="windowActionBarOverlay">false</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorAccent">@color/vr</item>
+        <item name="colorPrimaryDark">@color/vr</item>
+        <item name="colorPrimary">@color/vr</item>
+        <item name="colorControlHighlight">@color/vr1</item>
+        <item name="colorControlNormal">@color/hint</item>
+        <item name="colorControlActivated">@color/gray</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:navigationBarColor" tools:ignore="NewApi">@color/intro_transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:textSize">@dimen/default_font_size_16</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/hint</item>
+        <item name="android:buttonStyle">@style/NanumButtonStyle</item>
+        <item name="android:editTextStyle">@style/NanumEditTextStyle</item>
+        <item name="android:radioButtonStyle">@style/NanumRadioButtonStyle</item>
+        <item name="android:checkboxStyle">@style/NanumCheckboxStyle</item>
+        <item name="android:textViewStyle">@style/NanumTextViewStyle</item>
+    </style>
+
+    <style name="AppFullScreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="NanumTextViewStyle" parent="@android:style/Widget.DeviceDefault.TextView">
+        <item name="android:fontFamily">@font/nanumgothic_regular</item>
+    </style>
+    <style name="NanumButtonStyle" parent="@android:style/Widget.DeviceDefault.Button.Borderless">
+        <item name="android:fontFamily">@font/nanumgothic_regular</item>
+    </style>
+    <style name="NanumEditTextStyle" parent="@android:style/Widget.DeviceDefault.EditText">
+        <item name="android:fontFamily">@font/nanumgothic_regular</item>
+    </style>
+    <style name="NanumRadioButtonStyle" parent="@android:style/Widget.DeviceDefault.CompoundButton.RadioButton">
+        <item name="android:fontFamily">@font/nanumgothic_regular</item>
+    </style>
+    <style name="NanumCheckboxStyle" parent="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox">
+        <item name="android:fontFamily">@font/nanumgothic_regular</item>
+    </style>
+
+
+    <style name="SwitchStyle" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">@color/vr1</item>
+        <item name="colorSwitchThumbNormal">@color/white</item>
+        <item name="android:colorForeground">@color/vr2</item>
+    </style>
+
+    <style name="ViewStyle_Line1" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">2dip</item>
+        <item name="android:background">@color/holo_red_light</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="ViewStyle_Line2" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.01dip</item>
+        <item name="android:background">@color/vr2_50</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginLeft">@dimen/layout_margin</item>
+    </style>
+
+    <style name="ViewStyle_Line3" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dip</item>
+        <item name="android:background">@color/vr2</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="TextStyle_Board_Text1" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/default_font_size_12</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:layout_marginBottom">@dimen/layout_margin_small_2x</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="TextStyle_Board_Text2" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/default_font_size_20</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:layout_marginLeft">@dimen/layout_margin_small</item>
+        <item name="android:layout_marginRight">@dimen/layout_margin_small</item>
+        <item name="android:layout_marginTop">@dimen/layout_margin_small_2x</item>
+        <item name="android:layout_marginBottom">@dimen/layout_margin_small_2x</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <!-- Icon -->
+    <style name="IconRipple_White" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:clickable">true</item>
+        <item name="android:foreground">?attr/selectableItemBackgroundBorderless</item>
+        <item name="android:gravity">center</item>
+        <item name="android:colorControlHighlight" tools:ignore="NewApi">@color/white</item>
+    </style>
+
+    <style name="TextStyle_Camera_Overlay" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/default_font_size_16</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+
+</resources>
+

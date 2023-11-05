@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Kakao -->
+    <color name="color6">#FFFFFF</color>
+    <color name="com_kakao_brown">#472a2b</color>
+
+    <!-- Tab -->
+    <color name="vr">#000000</color>
+    <color name="vr_transparent">#D9000000</color>
+    <color name="vr_transparent_5">#0D000000</color>
+    <color name="vr_transparent_10">#1A000000</color>
+    <color name="vr_transparent_20">#33000000</color>
+    <color name="vr_transparent_30">#4D000000</color>
+    <color name="vr_transparent_40">#66000000</color>
+    <color name="vr_transparent_60">#99000000</color>
+    <color name="status">#000000</color>
+
+    <color name="intro_transparent">#99000000</color>
+    <color name="media_download">#C00000</color>
+
+    <color name="vr1">#30b8d8</color> <!-- 1 -->
+    <color name="vr2">#7ec6d7</color> <!-- 2 -->
+    <color name="vr3">#fff100</color> <!-- 3 -->
+    <color name="vr4">#e4007f</color> <!-- 4 -->
+    <color name="vr5">#000000</color> <!-- 5 -->
+    <color name="vr6">#eb6ea5</color> <!-- 6 -->
+    <color name="vr7">#141114</color> <!-- 6 -->
+
+    <color name="vr1_20">#33e4007f</color> <!-- 20 -->
+    <color name="vr2_50">#80ffffff</color> <!-- 50 -->
+    <color name="vr6_60">#99000000</color> <!-- 60 -->
+    <color name="vr6_50">#80000000</color> <!-- 50 -->
+    <color name="vr4_70">#B3878787</color> <!-- 70 -->
+    <color name="vr4_50">#80878787</color> <!-- 50 -->
+    <color name="vr5_20">#33000000</color> <!-- 20 -->
+    <color name="vr5_80">#CC141114</color> <!-- 80 -->
+    <color name="vr5_90">#E6141114</color> <!-- 95 -->
+
+
+    <color name="vr1_70">#B3e4007f</color> <!-- 70 -->
+    <color name="vr1_90">#E6e4007f</color> <!-- 90 -->
+
+    <color name="shimmer_placeholder">#dddddd</color>
+
+    <!--
+    Hex Opacity Values
+    100% — FF
+    95% — F2
+    90% — E6
+    85% — D9
+    80% — CC
+    75% — BF
+    70% — B3
+    65% — A6
+    60% — 99
+    55% — 8C
+    50% — 80
+    45% — 73
+    40% — 66
+    35% — 59
+    30% — 4D
+    25% — 40
+    20% — 33
+    15% — 26
+    10% — 1A
+    5% — 0D
+    0% — 00
+    -->
+
+    <!-- common -->
+    <color name="subpharm">#80CBC4</color>
+    <color name="disable">#36DEDE</color>
+    <color name="white" type="color">#ffffffff</color>
+    <color name="black" type="color">#ff000000</color>
+    <color name="gray" type="color">#797979</color>
+    <color name="back" type="color">#f3f3f3</color>
+    <color name="hint" type="color">#BDBDBD</color>
+    <color name="space" type="color">#EEEEEE</color>
+    <color name="blue" type="color">#1565C0</color>
+    <color name="barcode" type="color">#616161</color>
+
+    <color name="holo_blue_bright">#ff00ddff</color>
+    <color name="holo_green_light">#ff99cc00</color>
+    <color name="holo_orange_light">#ffffbb33</color>
+    <color name="holo_red_light">#C00000</color>
+
+    <!-- camera overlay -->
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="possible_result_points">#c0ffbd21</color> <!-- Android standard ICS color -->
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c099cc00</color> <!-- Android standard ICS color -->
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_laser">#ffcc0000</color> <!-- Android standard ICS color -->
+    <color name="viewfinder_mask">#7F000000</color>
+
+    <color name="white_trans">#99FFFFFF</color>
+</resources>
